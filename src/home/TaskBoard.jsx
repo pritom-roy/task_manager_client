@@ -134,7 +134,7 @@ const TaskBoard = () => {
                                                             </button>
                                                         </div>
                                                         <h3 className="font-semibold">{task.title}</h3>
-                                                        <p className="text-sm text-gray-300">{task.description}</p>
+                                                        <p className="text-sm text-gray-300 max-h-24 overflow-y-auto">{task.description}</p>
                                                         <span className="text-xs text-gray-500">{task.timestamp.toLocaleString()}</span>
                                                     </div>
                                                 )}
